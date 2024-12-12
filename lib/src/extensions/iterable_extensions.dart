@@ -238,5 +238,5 @@ extension IterableExtensions<E> on Iterable<E> {
   /// ```dart
   /// [1, 2, 3, 4, 5].shuffled; // e.g. [4, 2, 5, 1, 3]
   /// ```
-  List<E> get shuffled => ([...this]..shuffle()).toUnmodifiableList();
+  List<E> get shuffled_ => ([...this]..shuffle()).toUnmodifiableList();
 }
